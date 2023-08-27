@@ -1,26 +1,15 @@
-# Smart-pesiticide-sprayer
-this uses an over the internet communication using third party applications like Blynk
+## MAIN MODULE:
+Movement: This module controls the movement of the device, likely a rover or sprayer.
+Pan and Tilt: Two servos are used for adjusting the orientation (pan and tilt) of the sprayer and possibly the camera.
+DC Pump: The DC pump is used for water pumping, likely for irrigation or spraying.
+Remote Control: This module seems to have a communication interface, possibly via Wi-Fi, to receive commands and transmit data to and from a central server or control interface.
 
-This is a prototype model used to reduce human efforts and maximize the production of crops
-this can be also used as a sanitizer sanitizer sprayer in hospitals too and various applications too
+## SUB MODULE (SENSOR MODULE):
+Sensor Integration: This module integrates various sensors such as temperature and humidity sensors, soil moisture sensors, and an ultrasonic sensor for obstacle detection.
+Data Collection: These sensors collect data related to environmental conditions and obstacles in real-time.
+Communication: Like the main module, this sub-module communicates data wirelessly, likely to the central server or controller.
 
-/////////////////////////////////////////////////////////////////////////////////////
-
-comming for the project part itself 
-connections are to be made as per the circuit diagram as attached
-the project requires three modules
-
-1) MAIN MODULE which is responsible for the movement and stuffs 
-    the main module is attached with 2 motors for movement 2 servos for pan and tilt of the sprayer and one for the panning of the camera
-    the connection diagram is attached. this has a DC pump for the pumping of water
-    
-2) SUB MODULE or SENSOR MODULE
-    the sensor module is that which all the sensors are attached to !
-    the sensors include Temperature and humidity, soil moisture,and ultrasonic sensor for the forthcomming obstacle detection
-    
- 3) CAM MODULE 
-    this module is responsible for the live footage delivery from the Rover
-    
-    these all modules are connected individually as a standalone modules to the wifi and thus transmitting and receiving the Data from and to the rover and the server
-    
-    
+## CAM MODULE:
+Live Footage: This module captures and streams live footage, possibly from a camera attached to the rover.
+Video Transmission: It's responsible for transmitting the live video feed to a central server or monitoring station.
+Remote Viewing: Users can remotely view the live video feed to monitor the operation of the device.
